@@ -47,6 +47,10 @@ section > a {
     text-decoration: none;
 }
 
+section > .image {
+    width: 100%;
+    background-size: cover;
+}
 
 
 #section1 > h1 {
@@ -79,11 +83,9 @@ section > a {
     opacity: 1;
 }
 
-#section1 > .sally{
+#section1 > .image{
     background: url('../images/sally01.png') no-repeat center left;
-    background-size: cover;
     height: 540px;
-    width: 100%;
 }
 
 #section2 > h2 {
@@ -94,14 +96,51 @@ section > a {
     padding-block: 100px 76px;
 }
 
-#section2 > .screen-app{
-    background: url('../images/find-your-gadget.png') no-repeat center left;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-}
-
 #section2 > h1 {
     max-width: 336px;
     padding-block: 35px;
+}
+
+#section2 > p {
+    max-width: 336px;
+}
+
+#section2 > .image{
+    background: url('../images/screen-find-your-gadget.png') no-repeat center center;
+    height: 700px;
+}
+
+#section3 > h1 {
+    max-width: 336px;
+    padding-block: 80px 20px;
+}
+
+#section3 > p {
+    max-width: 300px;
+    padding-bottom: 32px;
+}
+
+#section3 > .image {
+    background: url('../images/screen-carrocel.png') no-repeat center center;
+    height: 590px;    
+}
+
+
+
+#section4 > a {
+    margin-block: 56px 34px;
+}
+
+#section4 > h1 {
+    padding-bottom: 26px;
+}
+
+#section4 > p {
+    max-width: 251px;
+    padding-bottom: 32px;
+}
+
+#section4 > .image {
+    background: url('../images/screen-search.png') no-repeat center center;
+    height: 556px;
 }
