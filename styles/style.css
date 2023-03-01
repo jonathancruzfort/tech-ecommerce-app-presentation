@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+section > p {
+    font-weight: 500;
+    font-size: 24px;
+    color: #737373;
+    line-height: 38px;
+    text-align: center;
+}
+
+section > a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #5956E9;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+
+
+#section1 > h1 {
+    line-height: 65px;
+    max-width: 350px;
+    padding-block: 70px 16px;
+}
+
+#section1 > p {
+    max-width: 320px;
+    padding-block: 20px;
+}
+
+#section1 > input[type="button"] {
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #5956E9;
+    outline-color: #8584e7;
+    opacity: .8;
+    transition: all .3s;
+    padding: 22px 30px;
+    border-radius: 10px;
+    margin-bottom: 64px;
+}
+
+#section1 > input[type="button"]:hover {
+    opacity: 1;
+}
+
+#section1 > .sally{
+    background: url('../images/sally01.png') no-repeat center left;
+    background-size: cover;
+    height: 540px;
+    width: 100%;
+}
+
+#section2 > h2 {
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    color: #333333;
+    padding-block: 100px 76px;
+}
+
+#section2 > .screen-app{
+    background: url('../images/find-your-gadget.png') no-repeat center left;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+#section2 > h1 {
+    max-width: 336px;
+    padding-block: 35px;
+}
