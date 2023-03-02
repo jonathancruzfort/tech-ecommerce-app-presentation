@@ -1,0 +1,52 @@
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background: url('../images/sally-full.png') no-repeat;
+    }
+
+    input[type="button"] {
+        opacity: .8;
+    }
+
+    input[type="button"]:hover {
+        opacity: 1;
+    }
+
+    header {
+        max-width: 1044px;
+        margin: 0 auto;
+    }
+
+    header > nav > menu, header > input {
+        display: flex;
+    }
+
+    header > nav > img {
+        display: none;
+    }
+
+    header > nav > menu {
+        gap: 60px;
+    }
+
+    header > nav > menu > li {
+        list-style: none;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    header > nav > menu > li:hover {
+        text-decoration: underline;
+    }
+
+    header > nav > menu > li.active {
+        color: #5956E9;
+    }
+
+    header > input {
+        background-color: #FAB8C3;
+        color: #5956E9;
+    }
+}

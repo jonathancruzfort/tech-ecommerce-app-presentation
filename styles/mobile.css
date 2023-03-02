@@ -14,11 +14,25 @@ a:hover {
     text-decoration: underline;
 }
 
+input.download {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    outline-color: #8584e7;
+    padding: 22px 30px;
+    border-radius: 10px;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+}
+
+header > nav > menu, header > input {
+    display: none;
 }
 
 section {
@@ -69,26 +83,13 @@ section > .image {
 }
 
 #section1 > input[type="button"] {
-    cursor: pointer;
-    border: none;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
     background-color: #5956E9;
-    outline-color: #8584e7;
-    opacity: .8;
-    transition: all .3s;
-    padding: 22px 30px;
-    border-radius: 10px;
     margin-bottom: 64px;
 }
 
-#section1 > input[type="button"]:hover {
-    opacity: 1;
-}
-
 #section1 > .image{
-    background: url('../images/sally01.png') no-repeat center left;
+    background: url('../images/sally01.png') no-repeat center;
     height: 540px;
 }
 

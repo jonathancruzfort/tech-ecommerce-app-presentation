@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/style.css">
-    
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+
     <title>Tech Ecommerce App</title>
 </head>
+
 <body>
     <header>
         <img src="images/logo.svg" alt="sweava logo">
-        <nav><img src="images/hamburger.svg" alt="hamburger icon"></nav>
+        <nav>
+            <img src="images/hamburger.svg" alt="hamburger icon">
+            <menu>
+                <li class="active">Home</li>
+                <li>Team</li>
+                <li>Faq</li>
+                <li>Contact</li>
+            </menu>
+        </nav>
+        <input type="button" value="Download app" class="download">
     </header>
     <main>
         <section id="section1">
             <h1>Shopping App for Gadgets and Gifts</h1>
             <p>Get 10% off your first order when you spend over £40 on any product!</p>
-            <input type="button" value="Download App">
+            <input type="button" value="Download App" class="download">
             <div class="image"></div>
         </section>
         <section id="section2">
@@ -52,4 +64,5 @@
         <p>Copywright 2023 <a href="https://github.com/jonathancruzfort" target="_blank">website.com</a></p>
     </footer>
 </body>
+
 </html>
