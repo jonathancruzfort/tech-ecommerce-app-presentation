@@ -1,100 +1,140 @@
-
 @media screen and (min-width: 992px) {
 
     body {
         background: url('../images/sally-full.png') no-repeat;
+        background-size: contain;
     }
 
-    input[type="button"] {
+    header, main, footer {
+        max-width: 1044px;
+        padding-inline: 20px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 58px;
+        line-height: 67px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 38px;
+        color: var(--light-gray);
+    }
+
+    input.download {
+        font-size: 18px;
         opacity: .8;
+        transition: all .3s;
     }
 
-    input[type="button"]:hover {
+    input.download:hover {
         opacity: 1;
     }
 
     header {
-        max-width: 1044px;
-        margin: 0 auto;
-    }
-
-    header > nav > menu, header > input {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
     }
 
-    header > nav > img {
+    header > nav > img.hamburger {
         display: none;
     }
 
     header > nav > menu {
+        display: flex;
         gap: 60px;
     }
 
-    header > nav > menu > li {
-        list-style: none;
-        font-weight: 600;
+    header > nav > menu a {
         font-size: 16px;
-        cursor: pointer;
+        font-weight: 600;
+        color: var(--gray);
     }
 
-    header > nav > menu > li:hover {
-        text-decoration: underline;
+    header > input.download {
+        background-color: var(--light-pink);
+        color: var(--primary);
+        padding: 22px 34px;
     }
 
-    header > nav > menu > li.active {
-        color: #5956E9;
-    }
-
-    header > input {
-        background-color: #FAB8C3;
-        color: #5956E9;
-    }
-
-    section > h1 {
-        font-size: 60px;
+    section a {
+        font-size: 22px;
     }
 
     #section1 {
-        align-items: flex-start;
-        max-width: 1044px;
-        margin: 0 auto;
+        padding-block: 44px 120px;
     }
 
-    #section1 > h1 {
-        text-align: left;
-        max-width: 516px;
-    }
-   
-    #section1 > p {
-        text-align: left;
-        min-width: 510px;
+    #section1 h1 {
+        width: 520px;
     }
 
-    #section1 > .download {
-        margin-top: 40px;
+    #section1 p {
+        width: 490px;
+        padding-block: 36px 50px;
     }
-
-    #section1 > .image {
-        display: none;
+    
+    #section1 input.download {
+        padding: 22px 34px;
     }
 
 
     #section2 {
-        background-color: gray;
-        height: 100vh;
-        width: 1044px;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        /* flex-direction: row-reverse; */
-        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 120px;
     }
     
     #section2 > h2 {
-        font-size: 44px;
-    }
-    
-    #section2 > h1 {
-        max-width: 500px;
+        width: 100%;
+        font-size: 42px;
+        text-align: center;
     }
 
+    #section2 > aside {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #section2 > aside > .image {
+        background: url('../images/screen-find-your-gadget.png') no-repeat;
+        background-size: contain;
+        height: 680px;
+        width: 390px;
+    }
+
+    #section2 > aside > .content {
+        width: 500px;
+        margin: 0px 50px 50px 50px;
+    }
+
+    #section2 > aside > .content > h1 {
+        padding-block: 20px;
+    }
+
+
+    #section3 {
+        /* background: url('../images/back-section3.png') no-repeat; */
+
+    }
+
+    #section3 > aside {
+        background: linear-gradient(to right, #EDEEF6, #edeef600);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        padding: 20px 52px;
+    }
+
+    #section3 > aside > .image {
+        background: url('../images/screen-carrocel.png') no-repeat;
+        background-size: cover;
+        width: 590px;
+        height: 490px;
+    }
+    
 }

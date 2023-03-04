@@ -1,0 +1,110 @@
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background: url('../images/sally-full.png') no-repeat;
+    }
+
+    input[type="button"] {
+        opacity: .8;
+    }
+
+    input[type="button"]:hover {
+        opacity: 1;
+    }
+
+    header {
+        max-width: 1044px;
+        margin: 0 auto;
+    }
+
+    header > nav > menu, header > input {
+        display: flex;
+    }
+
+    header > nav > img {
+        display: none;
+    }
+
+    header > nav > menu {
+        gap: 60px;
+    }
+
+    header > nav > menu > li {
+        list-style: none;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    header > nav > menu > li:hover {
+        text-decoration: underline;
+    }
+
+    header > nav > menu > li.active {
+        color: #5956E9;
+    }
+
+    header > input {
+        background-color: #FAB8C3;
+        color: #5956E9;
+    }
+
+    section > h1 {
+        font-size: 60px;
+    }
+
+    #section1 {
+        align-items: flex-start;
+        max-width: 1044px;
+        margin: 0 auto;
+    }
+
+    #section1 > h1 {
+        text-align: left;
+        max-width: 516px;
+    }
+   
+    #section1 > p {
+        text-align: left;
+        min-width: 510px;
+    }
+
+    #section1 > .download {
+        margin-top: 40px;
+    }
+
+    #section1 > .image {
+        display: none;
+    }
+
+
+    #section2 {
+        background-color: gray;
+        height: 100vh;
+        width: 1044px;
+        margin: 0 auto;
+        position: relative;
+        /* flex-wrap: wrap-reverse;
+        flex-direction: column; */
+        /* justify-content: space-around; */
+    }
+    
+    #section2 > h2 {
+        width: 100%;
+        font-size: 44px;
+        background-color: red;
+    }
+    
+    #section2 > h1 {
+        max-width: 500px;
+    }
+
+    #section2 > .image {
+        max-width: 280px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+}
