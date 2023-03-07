@@ -118,23 +118,120 @@
 
 
     #section3 {
-        /* background: url('../images/back-section3.png') no-repeat; */
-
+        position: relative;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        padding-block: 80px 20px;
     }
 
     #section3 > aside {
         background: linear-gradient(to right, #EDEEF6, #edeef600);
         border-radius: 50px;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         padding: 20px 52px;
+        height: 90%;
+        width: 100%;
+    }
+
+    #section3 > aside h1 {
+        width: 408px;
+        margin-bottom: 20px;
+    }
+
+    #section3 > aside P {
+        width: 418px;
     }
 
     #section3 > aside > .image {
         background: url('../images/screen-carrocel.png') no-repeat;
         background-size: cover;
-        width: 590px;
-        height: 490px;
+        width: 336px;
+        height: 506px;
+    }
+
+    #section3 > .teste {
+        background: url('../images/back-section3.png') no-repeat center right;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    #section4{
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #section4 > .image {
+        background: url('../images/screen-search.png') no-repeat;
+        background-size: contain;
+        height: 680px;
+        width: 390px;
+    }
+
+    #section4 > .content {
+        width: 500px;
+        margin: 0px 50px 50px 50px;
+    }
+
+    #section4 > .content > h1 {
+        padding-block: 20px;
     }
     
+
+    #section5 {
+        position: relative;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        padding-block: 80px 20px;
+    }
+
+    #section5 > aside {
+        background: linear-gradient(to right, #EDEEF6, #edeef600);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 52px;
+        height: 90%;
+        width: 100%;
+    }
+
+    #section5 > aside h1 {
+        width: 408px;
+        margin-bottom: 20px;
+    }
+
+    #section5 > aside P {
+        width: 418px;
+    }
+
+    #section5 > aside > .image {
+        background: url('../images/screen-carrocel.png') no-repeat;
+        background-size: cover;
+        width: 336px;
+        height: 506px;
+    }
+
+    #section5 > .teste {
+        background: url('../images/back-section3.png') no-repeat center right;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
