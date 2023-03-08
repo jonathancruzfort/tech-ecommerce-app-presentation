@@ -191,47 +191,43 @@
 
     #section5 {
         position: relative;
-        height: 700px;
-        display: flex;
-        align-items: center;
-        padding-block: 80px 20px;
+        height: 450px;
+        margin-block: 80px;
     }
 
-    #section5 > aside {
-        background: linear-gradient(to right, #EDEEF6, #edeef600);
+    #section5 > .content {
+        background-color: var(--light-pink);
         border-radius: 50px;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 52px;
-        height: 90%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-inline: 120px;
+        padding-block: 100px 140px;
         width: 100%;
+        position: relative;
     }
 
-    #section5 > aside h1 {
+    #section5 > .content h1 {
         width: 408px;
-        margin-bottom: 20px;
+        font-size: 38px;
+        line-height: 57px;
+        color: var(--primary);
+        margin-bottom: 30px;
     }
 
-    #section5 > aside P {
-        width: 418px;
+    #section5 > .content .download {
+        padding: 22px 80px;
     }
 
-    #section5 > aside > .image {
-        background: url('../images/screen-carrocel.png') no-repeat;
-        background-size: cover;
-        width: 336px;
-        height: 506px;
-    }
-
-    #section5 > .teste {
-        background: url('../images/back-section3.png') no-repeat center right;
+    #section5 > .image {
+        background: url('../images/screen-store-full.png') no-repeat center right;
+        width: 680px;
+        height: 560px;
         background-size: contain;
-        height: 100%;
-        width: 100%;
-
         position: absolute;
-        top: 0;
-        right: 0;
+        bottom: 0px;
+        right: -70px;
     }
+
 }
