@@ -230,4 +230,42 @@
         right: -70px;
     }
 
+
+    #section6 {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #section6 > h1 {
+        width: 414px;
+        font-size: 38px;
+        line-height: 57px;
+        padding: 0px 0px 50px 50px;
+        /* margin-right: 50px; */
+    }
+
+    #section6 > .image {
+        background: url('../images/social-media.png') no-repeat center;
+        background-size: contain;
+        height: 472px;
+        width: 516px;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer > p {
+        font-size: 14px;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    footer > p a {
+        color: var(--light-gray);
+    }
+
 }
