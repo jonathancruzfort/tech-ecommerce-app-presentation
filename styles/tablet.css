@@ -1,3 +1,269 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url('../images/sally-full.png') no-repeat;
+        background-size: contain;
+    }
+
+    header, main, footer {
+        max-width: 992px;
+        padding-inline: 30px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 34px;
+        color: var(--light-gray);
+    }
+
+    input.download {
+        font-size: 18px;
+        opacity: .8;
+        transition: all .3s;
+    }
+
+    input.download:hover {
+        opacity: 1;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px;
+    }
+
+    header > nav > img.hamburger {
+        display: none;
+    }
+
+    header > nav > menu {
+        display: flex;
+        gap: 50px;
+    }
+
+    header > nav > menu a {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--gray);
+    }
+
+    header > input.download {
+        background-color: var(--light-pink);
+        color: var(--primary);
+        padding: 20px 32px;
+    }
+
+    section a {
+        font-size: 18px;
+    }
+
+    #section1 {
+        padding-block: 40px 112px;
+    }
+
+    #section1 h1 {
+        width: 520px;
+    }
+
+    #section1 p {
+        width: 490px;
+        padding-block: 36px 50px;
+    }
     
+    #section1 input.download {
+        padding: 22px 34px;
+    }
+
+
+    #section2 {
+        flex-direction: column;
+        padding-top: 120px;
+    }
+    
+    #section2 > h2 {
+        width: 100%;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    #section2 > aside {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #section2 > aside > .image {
+        background: url('../images/screen-find-your-gadget.png') no-repeat;
+        background-size: contain;
+        height: 680px;
+        width: 390px;
+    }
+
+    #section2 > aside > .content {
+        width: 500px;
+        margin: 0px 50px 50px 50px;
+    }
+
+    #section2 > aside > .content > h1 {
+        padding-block: 20px;
+    }
+
+
+    #section3 {
+        position: relative;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        padding-block: 80px 20px;
+    }
+
+    #section3 > aside {
+        background: linear-gradient(to right, #EDEEF6, #edeef600);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 52px;
+        height: 90%;
+        width: 100%;
+    }
+
+    #section3 > aside h1 {
+        width: 408px;
+        margin-bottom: 20px;
+    }
+
+    #section3 > aside P {
+        width: 418px;
+    }
+
+    #section3 > aside > .image {
+        background: url('../images/screen-carrocel.png') no-repeat;
+        background-size: cover;
+        width: 336px;
+        height: 506px;
+    }
+
+    #section3 > .teste {
+        background: url('../images/back-section3.png') no-repeat center right;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    #section4{
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #section4 > .image {
+        background: url('../images/screen-search.png') no-repeat;
+        background-size: contain;
+        height: 680px;
+        width: 390px;
+    }
+
+    #section4 > .content {
+        width: 500px;
+        margin: 0px 50px 50px 50px;
+    }
+
+    #section4 > .content > h1 {
+        padding-block: 20px;
+    }
+    
+
+    #section5 {
+        position: relative;
+        height: 450px;
+        margin-block: 80px;
+    }
+
+    #section5 > .content {
+        background-color: var(--light-pink);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-inline: 120px;
+        padding-block: 100px 140px;
+        width: 100%;
+        position: relative;
+    }
+
+    #section5 > .content h1 {
+        width: 408px;
+        font-size: 38px;
+        line-height: 57px;
+        color: var(--primary);
+        margin-bottom: 30px;
+    }
+
+    #section5 > .content .download {
+        padding: 22px 80px;
+    }
+
+    #section5 > .image {
+        background: url('../images/screen-store-full.png') no-repeat center right;
+        width: 480px;
+        height: 460px;
+        background-size: contain;
+        position: absolute;
+        bottom: 0px;
+        right: -15px;
+    }
+
+
+    #section6 {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #section6 > h1 {
+        width: 414px;
+        font-size: 38px;
+        line-height: 57px;
+        padding: 0px 0px 50px 50px;
+        /* margin-right: 50px; */
+    }
+
+    #section6 > .image {
+        background: url('../images/social-media.png') no-repeat center;
+        background-size: contain;
+        height: 472px;
+        width: 516px;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer > p {
+        font-size: 14px;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    footer > p a {
+        color: var(--light-gray);
+    }
 }
